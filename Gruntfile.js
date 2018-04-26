@@ -13,10 +13,9 @@ module.exports = function(grunt) {
             banner:
                 '/*!\n' +
                 ' * mahjong.js <%= pkg.version %> (<%= grunt.template.today("yyyy-mm-dd, HH:MM") %>)\n' +
-                ' * http://gleitzman.com/apps/mahjong\n' +
                 ' * MIT licensed\n' +
                 ' *\n' +
-                ' * Copyright (C) 2013 Benjamin Gleitzman, http://gleitzman.com\n' +
+                ' * Copyright (C) 2018 Nowhere Workshop \n' +
                 ' */'
         },
 

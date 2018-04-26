@@ -5,7 +5,7 @@
  */
 
 const mahjong = require('./mahjong')
-const mahjong_util = require('../shared/mahjong_util')
+const mahjongUtil = require('../shared/mahjong_util')
 const Q = require('q')
 const shanten = require('./shanten')
 const _ = require('underscore')
@@ -56,7 +56,7 @@ module.exports.getDiscard = function (hand, thrown, callback) {
         var new_hand = hand.slice(0)
         var total_waits = 0
         new_hand[throw_tile] -= 1
-        for (var j = mahjong_util.vals.id_min; j <= mahjong_util.vals.id_max; j++) {
+        for (var j = mahjongUtil.vals.id_min; j <= mahjongUtil.vals.id_max; j++) {
           if (throw_tile === j) {
             continue
           }

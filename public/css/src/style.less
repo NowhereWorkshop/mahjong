@@ -153,8 +153,8 @@ h3 .tile { width: @tile-width-text; height: @tile-height-text; background-size: 
     .makeTile(@type; @tile-value; @i);
     .makeTiles(@type; (@tile-value - 1); (@i - 1));
 }
-.makeTiles(@bamboo; (@num-tiles-in-suit - 1); @num-tiles-in-suit);
-.makeTiles(@ball; (@num-tiles-in-suit - 1 + 9); @num-tiles-in-suit);
+.makeTiles(@ball; (@num-tiles-in-suit - 1); @num-tiles-in-suit);
+.makeTiles(@bamboo; (@num-tiles-in-suit - 1 + 9); @num-tiles-in-suit);
 
 .tile-18 { background-image: url(../../img/tiles/wind_east.png); }
 .tile-19 { background-image: url(../../img/tiles/wind_south.png); }
